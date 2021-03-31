@@ -1,0 +1,66 @@
+|---------------
+| 选用的是android2_defconfig
+
+|---------------
+| export arm的编译工具：
+	
+	// arm(也就是ARM32)
+	export PATH=$PATH:/home/tingsung/aosp/android9/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin
+	
+|---------------
+| 修改编译工具
+
+	打开android2_defconfig
+
+	将
+
+	CONFIG_CROSS_COMPILER_PREFIX=" arm-eabi-"
+
+	改为
+
+	CONFIG_CROSS_COMPILER_PREFIX="arm-linux-androideabi-"	
+
+|---------------
+| 修改sysroot路径
+
+	由于arm-linux-androideabi-4.6目录下没有sysroot目录，因此需要指定，否则编译时会出现找不到一些头文件的错误，如：
+
+	include/platform.h:141:20: fatal error:limits.h: No such file or directory
+
+	compilation terminated.
+
+	make[1]: *** [applets/applets.o]错误 1
+
+	make: *** [applets_dir]错误 2
+
+	 
+
+	打开android2_defconfig
+
+	在CONFIG_CROSS_COMPILER_PREFIX下再添加一行：
+
+	CONFIG_SYSROOT="/home/tingsung/aosp/android10/prebuilts/ndk/current/platforms/android-28/arch-arm"
+	
+|------------------
+| 
+
+make android2_defconfig 2>&1 | tee "make android2_defconfig.log"
+
+
+   ）进行编译选项配置
+
+     a 、
+
+     $ make menuconfig
+
+     Busybox Settings --->
+
+            Build Options --->
+
+                [*] Build BusyBox as a static binary(no shared libs)	
+				
+   b 、
+
+            Installation Options --->
+
+                [*] Don't use /usr  				
