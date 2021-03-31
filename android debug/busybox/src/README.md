@@ -3,7 +3,7 @@
 
 </br>
 
-Step:
+Step :
 
   &ensp;＃ export arm cross compile toolchain
 
@@ -37,7 +37,7 @@ Step:
 </br>
 </br>
 
-Ref:
+Ref :
 
  &ensp; [Android版busybox编译 CSDN/skdev](https://blog.csdn.net/skdev/article/details/45094637)
 
