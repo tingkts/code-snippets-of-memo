@@ -31,7 +31,7 @@ Step:
 
   &ensp;＃ `make`
 
-　　　　&ensp;&ensp;May encounter several times of build break, need to be fixed case by case.
+　&ensp;&ensp;May encounter several times of build break, need to be fixed case by case.
 
 
 </br>
