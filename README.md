@@ -1,6 +1,6 @@
 #### Miscellaneous code snippets and notes
 
-&nbsp;Just record awesome code snippets and notes as the cheat sheet.
+&ensp;Just record awesome code snippets and write some notes as the cheat sheet.
 
 </br>
 
