@@ -36,7 +36,7 @@ ___
 
 </br>
 
-#### Hex Editor/Compare
+#### Hex Editor/Comparer
 
 - [wxMEdit](https://wxmedit.github.io/)
 
