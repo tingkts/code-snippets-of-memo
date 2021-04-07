@@ -47,7 +47,7 @@ ___
 
 </br>
 
-#### Compare
+#### Comparer
 
 - [Beyond Compare](https://www.scootersoftware.com/)
 
