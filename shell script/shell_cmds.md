@@ -83,4 +83,9 @@ tr ':' '\n' <<< "$PATH"
 
 # list directory size
 du -shc ./* | sort -rn
+
+# xargs
+find ... | xargs rm -Rvf
+grep ... | xargs rm -Rvf
+
 ```
