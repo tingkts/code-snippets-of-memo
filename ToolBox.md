@@ -349,3 +349,12 @@ ___
 - [dupeGuru](https://dupeguru.voltaicideas.net/)
 
 - [AllDup](http://alldup.de/en_download_alldup.php)
+
+
+</br>
+
+#### File unlocker
+
+- [EMCO UnLock IT](https://emcosoftware.com/unlock-it)
+
+- [Free File Unlocker](http://www.freefileunlocker.com/)
