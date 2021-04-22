@@ -106,6 +106,13 @@ ___
 - [Postman](https://www.postman.com/)
 - [cURL](https://curl.se/)
 
+
+</br>
+
+#### ARM GCC cross-compilie toolchain
+- [arm Developer](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a/downloads)
+- [Linaro Release](https://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/aarch64-linux-gnu/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu.tar.xz)
+
 <!--
 ───────────────────────────────────────────────────────
 
@@ -354,3 +361,12 @@ ___
 - [dupeGuru](https://dupeguru.voltaicideas.net/)
 
 - [AllDup](http://alldup.de/en_download_alldup.php)
+
+
+</br>
+
+#### File unlocker
+
+- [EMCO UnLock IT](https://emcosoftware.com/unlock-it)
+
+- [Free File Unlocker](http://www.freefileunlocker.com/)
