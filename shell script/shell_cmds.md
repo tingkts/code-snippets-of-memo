@@ -88,4 +88,7 @@ du -shc ./* | sort -rn
 find ... | xargs rm -Rvf
 grep ... | xargs rm -Rvf
 
+# only list the symbolic link
+ls -alR | grep ^l
+
 ```
