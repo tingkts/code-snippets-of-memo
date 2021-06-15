@@ -8,7 +8,7 @@
 § &thinsp; git commit to Gerrit of code review
 
 ```git
-	git commit --sign-off
+  git commit --sign-off
 
-	git push HEAD:refs/for/*branch-name*
+  git push HEAD:refs/for/*branch-name*
 ```
