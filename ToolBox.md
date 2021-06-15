@@ -136,7 +136,7 @@ ___
 
 #### GNU for Windows
 
-- [Cmder](https://cmder.net/)
+- [Cmder](https://cmder.net/)  &ensp;  ["Open Cmder Here" in context menu](https://gist.github.com/hamzahamidi/ce00cdc5895480b9d538093bdeda4334)
 
 - [MinGW](https://sourceforge.net/projects/mingw/), [MSYS2](https://www.msys2.org/)
 
@@ -182,6 +182,8 @@ ___
 #### Remote Desktop
 
 - [TeamViewer](https://www.teamviewer.com/tw/)  &ensp;&nbsp;- __*License*__
+
+- [AweSun](https://sun.aweray.com/awesun/tc)
 
 - [AnyDesk](https://anydesk.com/)
 
